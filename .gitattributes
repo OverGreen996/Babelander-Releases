@@ -8,3 +8,6 @@ LICENSE -text
 licenses/** linguist-vendored
 third_party_sources/** linguist-vendored
 vendor/** linguist-vendored
+
+# Standalone user manual is documentation, not application source.
+Babelander-User-Manual-zh-TW.html linguist-documentation
