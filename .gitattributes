@@ -3,3 +3,8 @@
 # Preserve exact upstream notice bytes: release gates verify their SHA-256.
 licenses/** -text
 LICENSE -text
+
+# This repository distributes releases and documentation, not application code.
+licenses/** linguist-vendored
+third_party_sources/** linguist-vendored
+vendor/** linguist-vendored
