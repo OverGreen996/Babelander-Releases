@@ -8,6 +8,7 @@ Created for Babelander by OverGreen996, with AI-assisted design and project impl
 | assets/chat_ornate.png | 使用者提供「Codex 圖像 2026年9月15日 下午08_04_42.png」花邊參考 | AI-assisted 參考素材，專案整合為可縮放聊天裝飾；依 LICENSE 的自有內容範圍 |
 | assets/equipment_frames.png | 使用者提供「Codex 圖像 2026年9月15日 下午10_06_24.png」RARE 外框參考 | AI-assisted 參考素材，專案整合色調與縮放顯示；依 LICENSE 的自有內容範圍 |
 | assets/ui/check.svg / up.svg / down.svg | 本專案以 SVG 路徑建立的勾選與箭頭控制圖示 | 自行建立／AI 輔助程式撰寫，無外部圖示套件；不宣稱簡單通用圖形獨占權利 |
+| assets/support/adventurer_salute_sheet.png | 依使用者需求以內建 imagegen 生成透明 4×2 八格冒險者敬禮動畫 | AI-assisted 原創角色素材；Qt 原生切格與 nearest-neighbor 顯示，未使用外部遊戲角色或新增動畫框架 |
 
 素材來源所有者確認（2026-09-17）：OverGreen996 已確認 Logo、聊天花邊與裝備外框皆為自行設計／AI 生成且可用於 Babelander，沒有直接擷取其他遊戲素材。此為所有者來源聲明，不宣稱純 AI 輸出或一般圖形必然享有專有著作權。
 assets/brand-reference/ 為私人開發參考，不隨公開二進位包散布。用於邏輯測試的遊戲聊天／裝備截圖不包含在公開發布檔。
@@ -23,3 +24,5 @@ assets/brand-reference/ 為私人開發參考，不隨公開二進位包散布�
 | `assets/ui/check.svg` | `9245080c6c1de9b7aa4a96b311188f9e678a34a08821ddfc7a9b3d18f49f0660` |
 | `assets/ui/up.svg` | `8ff328645f03f965aa9cbf3342e9cbe352cda64d53c019ae7c04f586ca623a25` |
 | `assets/ui/down.svg` | `3a56029e6f103076f4e6647fb874df8c845516a84dce62892cdde3882a6d48be` |
+
+| `assets/support/adventurer_salute_sheet.png` | `2c8fbf265e10941b2151f76ca16a28570bdcfd939d2ae2e7ccc7d984eeb290f4` |

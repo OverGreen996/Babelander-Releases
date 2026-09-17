@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="48" viewBox="0 0 238 48" role="img" aria-labelledby="title">
+  <title id="title">Buy Me a Coffee</title>
+  <rect x=".5" y=".5" width="237" height="47" rx="9" fill="#ffdd00" stroke="#d8b72d"/>
+  <g fill="none" stroke="#171717" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 18h21v9a9 9 0 0 1-9 9h-3a9 9 0 0 1-9-9z"/>
+    <path d="M39 20h3a5 5 0 0 1 0 10h-4M17 39h24M24 9v4m7-4v4"/>
+  </g>
+  <text x="59" y="30" fill="#171717" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Buy Me a Coffee</text>
+</svg>
