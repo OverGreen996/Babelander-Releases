@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Preserve exact upstream notice bytes: release gates verify their SHA-256.
+licenses/** -text
+LICENSE -text

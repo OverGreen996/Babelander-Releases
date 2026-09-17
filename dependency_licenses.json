@@ -1,0 +1,478 @@
+{
+  "Markdown": {
+    "version": "3.10.2",
+    "license": "BSD-3-Clause",
+    "files": {
+      "licenses/Markdown/licenses/LICENSE.md": "679548e35c1e95df436c855f6702cadd5b828bf2bb68fa636202f3e2d81f9f37"
+    }
+  },
+  "PySide6_Essentials": {
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": {
+      "licenses/PySide6_Essentials/COPYRIGHT.txt": "4723f8f01eece8e74098d6bbd4afb8c77191706b4c9407920d67ccfda0426c42",
+      "licenses/PySide6_Essentials/GPL-3.0-only.txt": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+      "licenses/PySide6_Essentials/LGPL-3.0-only.txt": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+      "licenses/PySide6_Essentials/licenses/LicenseRef-Qt-Commercial.txt": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+      "licenses/PySide6_Essentials/upstream/039dbb903aa3-COPYING": "9bf82b3636570e28118ee558ddab479b8f183d3e20327b7685a7479df52d6493",
+      "licenses/PySide6_Essentials/upstream/09fe2beab030-COPYING": "3700b1c56fae3813dfaaef1cba101b6ec108167f36b19f4b2cc8824cc829aa2b",
+      "licenses/PySide6_Essentials/upstream/0fbfe83c5f91-COPYING.libshiboken": "902847d35abac99283b01c6bdd6f358d361de6bb1473c931756af8d68b890b2b",
+      "licenses/PySide6_Essentials/upstream/394e5f89655b-Qt-GPL-exception-1.0.txt": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2",
+      "licenses/PySide6_Essentials/upstream/3c2f49eb5899-LGPL-3.0-only.txt": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "licenses/PySide6_Essentials/upstream/5693b956e17a-GPL-3.0-only.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "licenses/PySide6_Essentials/upstream/6b133d369ba8-Apache-2.0.txt": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb",
+      "licenses/PySide6_Essentials/upstream/70a9f8f15062-licensewizard.pyproject": "63beb560ba2443516e5bf866f25a5183e6b967ae3781397550e6cab0e3caaee7",
+      "licenses/PySide6_Essentials/upstream/8390fd3b69e1-licensewizard.rst": "fad20794aa982de57be8a959b93b0f37f60f9aee05d1d8b9cd1c8f4db8a3f307",
+      "licenses/PySide6_Essentials/upstream/867ced23ebc1-licensewizard.py": "c8db99a78d6f0212aa4ad2a21a7e6b8db61ec9c742b22746e0c49656d176f03a",
+      "licenses/PySide6_Essentials/upstream/8ddd451c4c11-COPYING": "4f740497cf8ad0e564de90d3416a06c3d6b1d69d6883fe539925e3353d68a466",
+      "licenses/PySide6_Essentials/upstream/9809a60bbd0e-COPYING": "9bf82b3636570e28118ee558ddab479b8f183d3e20327b7685a7479df52d6493",
+      "licenses/PySide6_Essentials/upstream/a7c686684455-COPYING.libsample": "902847d35abac99283b01c6bdd6f358d361de6bb1473c931756af8d68b890b2b",
+      "licenses/PySide6_Essentials/upstream/ab35a0a1b418-licensewizard.png": "a4d37fa6f9a146672ed95eed537723a7da88676e108b20f18c8f349a7d116364",
+      "licenses/PySide6_Essentials/upstream/ac73aa873e0e-COPYING": "4f740497cf8ad0e564de90d3416a06c3d6b1d69d6883fe539925e3353d68a466",
+      "licenses/PySide6_Essentials/upstream/c19b8b368854-license.txt": "fb5cbaf2315c9d953bd067b53c8359c6b0e420c05622f85bdb8802872bdf1d72",
+      "licenses/PySide6_Essentials/upstream/c27011a76523-license_check.py": "60a8f466a365c20acaf3e5947f3db596956e4a8ccac951d3143b09c385228fbb",
+      "licenses/PySide6_Essentials/upstream/c5f0ae62e7b0-licensecomment.txt": "dd6a83da77d0b6a113a574154c12cb009751c2b0dfe5c22e288cd86ebc2a1f13",
+      "licenses/PySide6_Essentials/upstream/ca84509b8394-BSD-3-Clause.txt": "62803a6fcceef9091a129d7293d2469ea332b35d30f5e1bc4c628a9f35f3d29c",
+      "licenses/PySide6_Essentials/upstream/da54f155d246-LicenseRef-Qt-Commercial.txt": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700",
+      "licenses/PySide6_Essentials/upstream/e75119200979-GPL-2.0-only.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "licenses/PySide6_Essentials/upstream/edf9fa6df438-license.txt": "fb5cbaf2315c9d953bd067b53c8359c6b0e420c05622f85bdb8802872bdf1d72",
+      "licenses/PySide6_Essentials/upstream/eefc5bc776a9-GFDL-1.3-no-invariants-only.txt": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4",
+      "licenses/PySide6_Essentials/upstream/ORIGINAL_PATHS.json": "b2f7c76452957988b15ad4162f634544c1293261249687c6628710a0ca604364",
+      "licenses/Qt/GPL-3.0-only.txt": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+      "licenses/Qt/LGPL-3.0-only.txt": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+      "licenses/Qt/LGPL-3.0.txt": "7d3a95e5e06978064ed3f8e2b7c8f845e7fd8a405294727cc708f94cb83b8059",
+      "licenses/Qt/upstream/001098443d7d-COPYING": "4103f471877ed0bae500752c5fcd7ecca409d4a4a8dc2ad40437daba60f1a2bc",
+      "licenses/Qt/upstream/063ed355b9db-GPL-2.0-only.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "licenses/Qt/upstream/070ecb0c3cf8-licensewizard-flow.png": "7a0e08a4499da689b635d1c2582ceb86d4a76b94940f2faae733af6e97621c43",
+      "licenses/Qt/upstream/0c906469b950-LICENSE-SLJIT": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb",
+      "licenses/Qt/upstream/12d90ac7c770-LICENSE.XML-Test-Suite.txt": "b2ace830c68a486d548834b9a93806d064a3eb041f603ec6368034d060fdf46a",
+      "licenses/Qt/upstream/14b38bb78ef1-LICENSE.KHRONOS.txt": "2e484f3c26ff5008c704a3ca9dd809d43f24a004a1abb6c202660fbff0d19715",
+      "licenses/Qt/upstream/15b90da9136d-BSD-4-Clause.txt": "83faa0d205c316ce3efeafee465b6a165914fb29595968c08dc6437021b7b6fd",
+      "licenses/Qt/upstream/15d27f28796b-BSD-3-Clause.txt": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce",
+      "licenses/Qt/upstream/16775d4f64ac-LicenseRef-Lcs-Telegraphics.txt": "c10225ebbd5191bfdd761b0d7752c785f2453ab665d6c454473fb12d254668aa",
+      "licenses/Qt/upstream/180d31229274-LICENSE": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080",
+      "licenses/Qt/upstream/1a9cf8775e31-Qt-GPL-exception-1.0.txt": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2",
+      "licenses/Qt/upstream/1b0f7eb61927-MIT-open-group.txt": "c55d2ab72d8a4f9e9cd8fbd1379268e575e8cfa16874affa5899b75a6d754514",
+      "licenses/Qt/upstream/1cfda469469b-LICENSE.txt": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+      "licenses/Qt/upstream/22457b071d7e-BSD-2-Clause.txt": "8fda146749ca071ac9cdce2e24d25444676ea48d1f9dccc2b7c15c054b717db8",
+      "licenses/Qt/upstream/25a2da7bf6ac-LicenseRef-ICC-License.txt": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd",
+      "licenses/Qt/upstream/2704aa15ed0e-COPYRIGHT.txt": "e5b349c6a98d997a8d0f5fcfe5cc900b1f76bbc32743674c52a70981498748c0",
+      "licenses/Qt/upstream/2c5bb8314fe0-LICENSE": "7ccebd514aaabc86192f957d773cebf06577c12fe9f25ecd419c6cac5da7a14c",
+      "licenses/Qt/upstream/322539bfb45f-FTL.txt": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1",
+      "licenses/Qt/upstream/3698ce5f39ae-IJG.txt": "1cb448f5e2e6d3aca60943f4eee1a04675628dc0266a074a42bc1560ebc28d61",
+      "licenses/Qt/upstream/371611dfe497-LicenseRef-TestLicense.txt": "05b8b7adf4a5c5099d2d34964885752d6fbacd697e806b3aa057d4d1314198cd",
+      "licenses/Qt/upstream/37828e36381b-GPL-2.0-only.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "licenses/Qt/upstream/3bc480cab207-LICENSE.txt": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd",
+      "licenses/Qt/upstream/3c5dd4a8cdcb-LICENSE.txt": "846d97c8b74ccaa92b9ad031140a04363b3b3985f318094552f297b8bda1c68e",
+      "licenses/Qt/upstream/3d0ba0676a12-LICENSE": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18",
+      "licenses/Qt/upstream/3d8975d3471e-COPYING-CMAKE-SCRIPTS": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b",
+      "licenses/Qt/upstream/3f1c14cb6e9f-LGPL-2.1-or-later.txt": "1ccf09bf2f598308df4bed9cd8e9657dc5cd0973d2800318f2e241486e2edf3f",
+      "licenses/Qt/upstream/3fd674492962-licensewizard-example.png": "b58d613534d4c50598862342d5c2f96234ce0fda8972b80c9ba2e3b4b6b282c3",
+      "licenses/Qt/upstream/41602299885a-Apache-2.0.txt": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb",
+      "licenses/Qt/upstream/42301cdd756f-LICENSE": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca",
+      "licenses/Qt/upstream/448428d3aab6-COPYRIGHT": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7",
+      "licenses/Qt/upstream/497ebff6e5a8-HPND.txt": "67ac968431270291f5e9cd3ed76705e1169f57082ee102093b2543b28cef63cf",
+      "licenses/Qt/upstream/49df77b9cd2f-BSD-3-Clause.txt": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce",
+      "licenses/Qt/upstream/4b27a25014be-licensepage.ini": "1948dabaa56efecd40e55ce1ebc48af807422218408fa69b6c07bfecaddf6ea0",
+      "licenses/Qt/upstream/503e3c577d73-IPL-1.0.txt": "d5328e672fb1bff47ee18e890784541453380081cf3771bb7b3c06fc19c7d503",
+      "licenses/Qt/upstream/5420a20f3964-GPL-2.0-only.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "licenses/Qt/upstream/559dad7de1a5-LICENSE": "3c6ba0b5bfa7830505301ffb336a17b0748e0d61c4d34216e9dc98f10e40395e",
+      "licenses/Qt/upstream/58d9d9d89b53-GFDL-1.3-no-invariants-only.txt": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4",
+      "licenses/Qt/upstream/59dbbc387704-GPL-3.0-only.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "licenses/Qt/upstream/5af3c837133e-Xerox.txt": "b6bc52205d01e10cf43dbb7b8aec06dcaa3b21d1486e7c9c0bec329ee8244d8d",
+      "licenses/Qt/upstream/5e0979159578-LGPL-3.0-only.txt": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "licenses/Qt/upstream/5e9d5baf1863-LICENSE": "92fac99458f1754b73edf50f9c9983e0efaa06ad96e2afd5e538c79f45b4b191",
+      "licenses/Qt/upstream/5ee79b049d0b-LICENSE.QIMAGETRANSFORM.txt": "46b3cbfa2f2946b93291506351e9be1dd0a28d2a53260f5aa488abd36fbeca9d",
+      "licenses/Qt/upstream/62293640553e-Unicode-3.0.txt": "80bb6294022d8764adb36a9d65ebb6bd94efb1865918a71e31e6c247607d7634",
+      "licenses/Qt/upstream/62aabad5d226-licensewizard.qdoc": "6d510597808cd180b2eb95771b5c10736017756631c566d405f97cc6a034fbe7",
+      "licenses/Qt/upstream/6458cc009590-LICENSE": "82775191bc05f85b40404d77bb69b1edeaeb4033f48387e9e5eab4dd67f5d6f1",
+      "licenses/Qt/upstream/6565ff763bbf-LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt": "0526625fcc746a42d3f19a0ab357d3dc8479fdbe3bfd168825498f50215c7a63",
+      "licenses/Qt/upstream/6575fd4d06f4-LGPL-3.0-only.txt": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "licenses/Qt/upstream/66fbf386c936-GPL-2.0-or-later.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "licenses/Qt/upstream/6f6b70b6470a-licenseheader.h.in": "6975a5d3dd6bb9e5fa9058f5d8739b68ca7d635fcfae8bec21949ec4331813ec",
+      "licenses/Qt/upstream/72c7806c044b-MIT-Khronos-old.txt": "3c58021633974f9ed3c3d445a374240a5244fd039628f4d7f6f3e674bc8e6694",
+      "licenses/Qt/upstream/76c641f4b769-SPL-1.0.txt": "f58f2f30909982445f97f1a61667261920a7caeab21ef5bea1b740f5b144d141",
+      "licenses/Qt/upstream/76cd3c429f74-licensewizard.h": "1d81a5d9adc3ceba888aa57b77974350fede49082075974504762f1618fdb533",
+      "licenses/Qt/upstream/77674ef46d84-Imlib2.txt": "8846f2baba1a7f4c36f7ca19a923a000d8a21afa37cf0fe006f6ce88a6058a89",
+      "licenses/Qt/upstream/77b2dbd33117-Zlib.txt": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080",
+      "licenses/Qt/upstream/783a520ffc18-LICENSE": "d0d683ae18e78fbef90eb41168fb781920da2d12bf80704490f0882915c18ae0",
+      "licenses/Qt/upstream/785d813d07ca-LICENSE.txt": "ed71cfca021790f74094e9810f42e31288e7f43cf00c8d9ac8d6f904124bd815",
+      "licenses/Qt/upstream/7b5d3690330c-LICENSE.txt": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "licenses/Qt/upstream/7b83d83182b3-Bitstream-Vera.txt": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+      "licenses/Qt/upstream/7c4d7128473e-LICENSE.MiniEngine.txt": "cf248820bf1178370bb4f1670a59f8748d46bc96d0f64080cd631511c6046409",
+      "licenses/Qt/upstream/7e22826b63f2-blessing.txt": "592db1199aab67aafe4515db9808b420db122083807c5329b2f061951e79acbe",
+      "licenses/Qt/upstream/8144d4e32858-COPYING-CMAKE-SCRIPTS": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b",
+      "licenses/Qt/upstream/863ba7f7d18e-Linux-syscall-note.txt": "3f9e477523febab58de8b716ccfbcf02e6ef1c8e7728953905e8558637abe2a9",
+      "licenses/Qt/upstream/87626f150fa4-LICENSE.txt": "1b64b23b817e547982a86984685f5e9337695caa542753fb6f08d502d5208e38",
+      "licenses/Qt/upstream/8c04bffd6f06-LICENSE.txt": "1b3941c52b26d42c510afbdf205a8b96a6d64f5a7b8ebff0287979fd91dfd52f",
+      "licenses/Qt/upstream/8e604a06d114-licenseheader.cpp.in": "331466d1e3f460ef7f3fe1fcd926307b0594311a2ed286b24ea649c82cc36cc5",
+      "licenses/Qt/upstream/8e9a060dbbbb-libpng-2.0.txt": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e",
+      "licenses/Qt/upstream/903c829b6b57-LICENSE.COCOA.txt": "e9e5b9f66d21c0e88a4179525ab39cd8d7eac9af78a8404f322c32b0874783d5",
+      "licenses/Qt/upstream/90e41b353453-licensewizard.qrc": "7d26a009bc3ad6aa90de263b4bc4b35a54296745629f0a13b35fbd8e1d96d0f3",
+      "licenses/Qt/upstream/916780ba9372-LicenseRef-SHA1-Public-Domain.txt": "65d86b8ec6b1cd8b8f6e64fd8710274ba00d6a3c520e00dfdcd1c3d2071f3305",
+      "licenses/Qt/upstream/92a8294c8ca2-licensewizard.cpp": "c81cf50625b97a2eabcfe46c8b20ccea123736ec5c6e149a86711ae61af226ec",
+      "licenses/Qt/upstream/9712ac6c1390-LICENSE.chromium": "1d7f52747a9169751cdf2641a8299c0098e9ecdf9429296ffd55bdb14c9ed5b3",
+      "licenses/Qt/upstream/9763b4cce25d-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenses/Qt/upstream/9ac4955ff6dc-LicenseRef-Qt-Commercial.txt": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700",
+      "licenses/Qt/upstream/9be80ea8e8ad-licenseRule.json": "304655fd87c18c401904bb0cca23f8c5700d996eea1932ad66858c0b29bb244c",
+      "licenses/Qt/upstream/9c0bb95dc8e3-LICENSE.txt": "635f33fbb460f1731dad45d79dbf2301255f63296d77a064c000f92e2cc79173",
+      "licenses/Qt/upstream/9e02c6cdd894-LICENSE.txt": "ec72eebd6326165156787da828caaa18386489387aefaa073c9bd40b8b2a400e",
+      "licenses/Qt/upstream/9e3b367e0b5d-GPL-3.0-only.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "licenses/Qt/upstream/a2e7f7e7dc32-LICENSE.txt": "5f618873b0cdd1e84c611c5529212c2524bfc887bdfd7d1f3b568bad3c649612",
+      "licenses/Qt/upstream/a7b8a4a8a664-AFL-2.1.txt": "93bb4f7417aa775bab9026cc3d0af28aeb64451fc5a8ec651876785edd8eaf9b",
+      "licenses/Qt/upstream/a8b36d5d2afd-LICENSE.QEVENTDISPATCHER_CF.txt": "e9e5b9f66d21c0e88a4179525ab39cd8d7eac9af78a8404f322c32b0874783d5",
+      "licenses/Qt/upstream/a96477125991-COPYING": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf",
+      "licenses/Qt/upstream/acd9501e4ae5-GFDL-1.3-no-invariants-only.txt": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4",
+      "licenses/Qt/upstream/b27a84f96a7d-Copyright.txt": "0676e30827684487aa0ea8f72f01e9460a6320fa34a2888df0ad1dd3e8a06eb8",
+      "licenses/Qt/upstream/b2c14b0a3141-LICENSE.XSVG.txt": "3a946598a9f674d44df764279ca0b85b5d6faba08f3bc75d8e0fcf6cd729a9bd",
+      "licenses/Qt/upstream/b5654ed6d6e4-LICENSE": "942c4f2a80394d3f53599b8382e9f27349b95c45d92b69b84f26d404f4dd74a5",
+      "licenses/Qt/upstream/b5f5d1916f8f-LICENSE.XCONSORTIUM.txt": "a216b01291eb38fc1af93cfccf1fc67b48d9923612e517c2a695e95b3f03c22c",
+      "licenses/Qt/upstream/b74b85c6da89-licenseRule.json": "1c5284a6173d6ebc072fae56c25c0a97be008175438a94e992b2e30a1edaf94f",
+      "licenses/Qt/upstream/b855159162aa-LICENSE.txt": "bf543cdda11864477b8d2ca2aa9afc2aaa8f9133461b4d962ed6ec73646256a1",
+      "licenses/Qt/upstream/b9ce1789a62a-LICENSE": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526",
+      "licenses/Qt/upstream/b9de78dca1d7-BSL-1.0.txt": "3abd6471b9a9a08d65ce771143f8e278bb4c1aeb10c1c2d476935a6b049653f5",
+      "licenses/Qt/upstream/bd400a07cba6-BSD-3-Clause.txt": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce",
+      "licenses/Qt/upstream/c36ddf5249df-LicenseRef-Qt-Commercial.txt": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700",
+      "licenses/Qt/upstream/c4828d74e006-licensewizard.pro": "42668d006d6ee28ed66ba3910cf1d106480631ddc24ef5aee665b982084ccf8a",
+      "licenses/Qt/upstream/c508196d840b-MIT.txt": "d040359701c01996a017d5c515678929cd1b0625e64cb86db44025fbb6cdf1fc",
+      "licenses/Qt/upstream/c52f93a22ea6-LICENSE.LIBDBUS-1.txt": "ad90aa08bb1a9b7056aa51e2e215b36630855457cde5dffd36aa0faa7b169f24",
+      "licenses/Qt/upstream/c5eff4e881f3-licenseRule.json": "ff1fcf586a8abec0c7a29d2c10f92951513174249818fdea2899fdaa6765a3aa",
+      "licenses/Qt/upstream/c73686442191-LicenseRef-Qt-Commercial.txt": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700",
+      "licenses/Qt/upstream/c7741e5d2e94-GFDL-1.3-no-invariants-only.txt": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4",
+      "licenses/Qt/upstream/c928c3134e54-GPL-3.0-only.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "licenses/Qt/upstream/cce4022ef4fb-HPND-sell-variant.txt": "3a946598a9f674d44df764279ca0b85b5d6faba08f3bc75d8e0fcf6cd729a9bd",
+      "licenses/Qt/upstream/dca576b5093b-Libpng.txt": "58fe669792f9b4e0740bf75ecfe90b5326128bb2ce7e27e1c342abd9db4d8ea6",
+      "licenses/Qt/upstream/dcfbaa6c9197-CC0-1.0.txt": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "licenses/Qt/upstream/dd8174b359c0-libtiff.txt": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7",
+      "licenses/Qt/upstream/ddf46a72a20f-LICENSE.AGLFN.txt": "40818155548ff41c67d3a40edf355e9658992b292c227f4c1147425cedc746c6",
+      "licenses/Qt/upstream/e598fffe61f6-LICENSE": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579",
+      "licenses/Qt/upstream/e5b76f4c4720-COPYING": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64",
+      "licenses/Qt/upstream/e98427b00cc0-LICENSE": "cf234c4188d773406f640bf89be680d9288f40ff96901c70d643fcea96ad46df",
+      "licenses/Qt/upstream/ed3c8b7a2fc0-LICENSE.md": "d30937367d5413e7eaa218b1640b8946ff76fd34d97152f6979fd96169d5d0fc",
+      "licenses/Qt/upstream/ef160cbd0783-LICENSE.WEBGRADIENTS.txt": "9be732e45b638c74f9c0e5248541dd54dc7e8e9a5545df96b5c4b7c9ac0c68ba",
+      "licenses/Qt/upstream/f68293c471bc-X11.txt": "e2936c6509784b4f0ec27bac74182393866fad9422b29a70e085ff14aba87193",
+      "licenses/Qt/upstream/f9102838d7af-LGPL-3.0-only.txt": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "licenses/Qt/upstream/fda0d8ba541a-MPL-2.0.txt": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+      "licenses/Qt/upstream/ORIGINAL_PATHS.json": "2fd04f125c9dcf949787809a8d00184812ac76ef5d6555a0c3c1d508cbe3eea8"
+    }
+  },
+  "PyYAML": {
+    "version": "6.0.3",
+    "license": "MIT",
+    "files": {
+      "licenses/PyYAML/licenses/LICENSE": "b4abba58ebe344bacebd1d027de1f3e9ab024fe0002bfafd8d801b11b9e0f3d7"
+    }
+  },
+  "Pygments": {
+    "version": "2.21.0",
+    "license": "BSD-2-Clause",
+    "files": {
+      "licenses/Pygments/licenses/AUTHORS": "3b2a7f9dfbf0a493f1fef918ee60bb964bdc93ac3c223081bccaf23f2f27f18b",
+      "licenses/Pygments/licenses/LICENSE": "f81848ae4c70c872922ece9cec494187e4fcdf3ecc2040857d65e09635adb02a"
+    }
+  },
+  "altgraph": {
+    "version": "0.17.5",
+    "license": "MIT",
+    "files": {
+      "licenses/altgraph/LICENSE": "0b9ba1394c0a342806271a7cfafdb69966c4c3446234b9ae4809157fde9ff758"
+    }
+  },
+  "antlr4-python3-runtime": {
+    "version": "4.9.3",
+    "license": "BSD",
+    "files": {
+      "licenses/antlr4-python3-runtime/LICENSE.txt": "b1b379fcaf3219593a4c433feb1b35c780bed23fafaae440b1ae2771a9521e3a",
+      "licenses/antlr4-python3-runtime/SOURCE.txt": "a65c925e7b2b23a11cb3412d41d1acc1a55ed3752ce238a12e88911d6d1646db"
+    }
+  },
+  "certifi": {
+    "version": "2026.7.22",
+    "license": "MPL-2.0",
+    "files": {
+      "licenses/certifi/licenses/LICENSE": "efd4508e127828f464236142d1a7acc70c3c816c0c5eecbd7f8fc65649d446ab"
+    }
+  },
+  "charset-normalizer": {
+    "version": "3.5.1",
+    "license": "MIT",
+    "files": {
+      "licenses/charset-normalizer/licenses/LICENSE": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1"
+    }
+  },
+  "colorama": {
+    "version": "0.4.6",
+    "license": "See retained upstream license",
+    "files": {
+      "licenses/colorama/licenses/LICENSE.txt": "3525b361643e12a9c6c0b7f6ee2d447c171ecb21af1245a24c9f7d3cb4382e8b"
+    }
+  },
+  "colorlog": {
+    "version": "6.12.0",
+    "license": "MIT License",
+    "files": {
+      "licenses/colorlog/licenses/LICENSE": "a1fa8871ca3535226841ba1aee1ffc0cf52ae58fe5db27cf1e834ebcc52206d8"
+    }
+  },
+  "flatbuffers": {
+    "version": "25.12.19",
+    "license": "Apache 2.0",
+    "files": {
+      "licenses/flatbuffers/COPYRIGHT.txt": "29eada89291e6c331b535fd3a5cb2844cf7118b6df0c77c3b550761d205502e3",
+      "licenses/flatbuffers/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenses/flatbuffers/SOURCE.txt": "84b10573cc34ff47baf09446cd4f6f197437999640c53d234232b0dda86bd702"
+    }
+  },
+  "idna": {
+    "version": "3.19",
+    "license": "BSD-3-Clause",
+    "files": {
+      "licenses/idna/licenses/LICENSE.md": "b395c7499873dbd9c4117046d91bfd2c47ca5d7d35b9dd9c1ba1911eefce0e59"
+    }
+  },
+  "iniconfig": {
+    "version": "2.3.0",
+    "license": "MIT",
+    "files": {
+      "licenses/iniconfig/licenses/LICENSE": "5b27cfa0bddab47901e60f1d2e846800e6dd57e1ee271760735f6771b691ac38"
+    }
+  },
+  "mss": {
+    "version": "10.2.0",
+    "license": "See retained upstream license",
+    "files": {
+      "licenses/mss/licenses/LICENSE.txt": "2dbc1a425220061dbd0c7bdb3e9db65a1c7b8a332eab64143ed2ba8ca9b4070a"
+    }
+  },
+  "numpy": {
+    "version": "2.5.3",
+    "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "files": {
+      "licenses/numpy/licenses/LICENSE.txt": "9a7c3fddd888d6dd3a9e20361910c01eb5e00c92513bf159c2cee48e8a853a06",
+      "licenses/numpy/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+      "licenses/numpy/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+      "licenses/numpy/licenses/numpy/_core/src/highway/LICENSE": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+      "licenses/numpy/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
+      "licenses/numpy/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+      "licenses/numpy/licenses/numpy/_core/src/umath/svml/LICENSE": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+      "licenses/numpy/licenses/numpy/fft/pocketfft/LICENSE.md": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+      "licenses/numpy/licenses/numpy/linalg/lapack_lite/LICENSE.txt": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+      "licenses/numpy/licenses/numpy/ma/LICENSE": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+      "licenses/numpy/licenses/numpy/random/LICENSE.md": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+      "licenses/numpy/licenses/numpy/random/src/distributions/LICENSE.md": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+      "licenses/numpy/licenses/numpy/random/src/mt19937/LICENSE.md": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+      "licenses/numpy/licenses/numpy/random/src/pcg64/LICENSE.md": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+      "licenses/numpy/licenses/numpy/random/src/philox/LICENSE.md": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+      "licenses/numpy/licenses/numpy/random/src/sfc64/LICENSE.md": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+      "licenses/numpy/licenses/numpy/random/src/splitmix64/LICENSE.md": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+    }
+  },
+  "omegaconf": {
+    "version": "2.3.1",
+    "license": "See retained upstream license",
+    "files": {
+      "licenses/omegaconf/licenses/LICENSE": "333716e4c55a322cd93bc57f74f796ff411adf9a75b259bf37ad24e15a77d3ce"
+    }
+  },
+  "onnxruntime": {
+    "version": "1.30.0",
+    "license": "MIT License",
+    "files": {
+      "licenses/onnxruntime/LICENSE": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
+      "licenses/onnxruntime/ThirdPartyNotices.txt": "c53a76501ef60db6f865f20599f220761201ac4057683acefdab37d861b86622"
+    }
+  },
+  "opencc-python-reimplemented": {
+    "version": "0.1.7",
+    "license": "Apache License",
+    "files": {
+      "licenses/opencc-python-reimplemented/LICENSE.txt": "18f3fedf9eac72e6054260489c764c1e54f63cf2b16055523f561ffeec7bc908"
+    }
+  },
+  "opencv-python": {
+    "version": "5.0.0.93",
+    "license": "Apache 2.0",
+    "files": {
+      "licenses/opencv-python/LICENSE-3RD-PARTY.txt": "c1d60169b55cee56452b227c2fd2a7b9ddda3dd3741065f1c6201072be73fadb",
+      "licenses/opencv-python/LICENSE.txt": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+    }
+  },
+  "packaging": {
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "files": {
+      "licenses/packaging/licenses/LICENSE": "8ef81e4c883c5ccb2a08026cc74ba3193279dd5149b36839d976c0a896637d87",
+      "licenses/packaging/licenses/LICENSE.APACHE": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+      "licenses/packaging/licenses/LICENSE.BSD": "67daf15b478dbd91bcd83bff907efff68471d42d2138226b89f039d658d53435"
+    }
+  },
+  "pefile": {
+    "version": "2024.8.26",
+    "license": "MIT",
+    "files": {
+      "licenses/pefile/LICENSE": "fa09deef47ce9e1134dafeb6c6f94cb89e4cb5310b629a3bc1755e5a75894a7a"
+    }
+  },
+  "pillow": {
+    "version": "12.3.0",
+    "license": "MIT-CMU",
+    "files": {
+      "licenses/pillow/licenses/LICENSE": "7cfc737a2d7fda776b8491589c69c5cd826e4b79c984dce51e8639211a83d961"
+    }
+  },
+  "pip": {
+    "version": "25.0.1",
+    "license": "MIT",
+    "files": {
+      "licenses/pip/LICENSE.txt": "afbb3c587ad82d668258516cfb0364d964670097a226fcc980e3217a76e16e8d"
+    }
+  },
+  "pluggy": {
+    "version": "1.6.0",
+    "license": "MIT",
+    "files": {
+      "licenses/pluggy/licenses/LICENSE": "de91589cbcc498cb36d3f979e39d4fb1ea1164d5331f6e0ea90a986525310d51"
+    }
+  },
+  "protobuf": {
+    "version": "7.36.1",
+    "license": "3-Clause BSD License",
+    "files": {
+      "licenses/protobuf/LICENSE": "f4df8b2457697851385d9ebb93267832c1dfa24e0e61881952f6b0c452663dc9"
+    }
+  },
+  "psutil": {
+    "version": "7.2.2",
+    "license": "BSD-3-Clause",
+    "files": {
+      "licenses/psutil/LICENSE": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80"
+    }
+  },
+  "pyclipper": {
+    "version": "1.4.0",
+    "license": "MIT",
+    "files": {
+      "licenses/pyclipper/licenses/LICENSE": "73c25539e7fb486b834c33747d579e0bc56c0f984294c88f3cb2329420ba300f"
+    }
+  },
+  "pyinstaller-hooks-contrib": {
+    "version": "2026.7",
+    "license": "See retained upstream license",
+    "files": {
+      "licenses/pyinstaller-hooks-contrib/licenses/LICENSE": "f7f282da3989d0b3423bca8d90f38e83c91c273d4896a72b01f7a89b2f1ce08d"
+    }
+  },
+  "pyinstaller": {
+    "version": "6.22.2",
+    "license": "See retained upstream license",
+    "files": {
+      "licenses/pyinstaller/licenses/COPYING.txt": "0272fb1ecee668bf0cc359ef4cd5d5ca1551b686be0abc27a660f68a3cb85ae5",
+      "licenses/Python/LICENSE.txt": "6c88ff6cfdae69dc3caf5c8dd052a65bf83e76827d29ea60b3a459e166b58fa3"
+    }
+  },
+  "pytest": {
+    "version": "9.1.1",
+    "license": "MIT",
+    "files": {
+      "licenses/pytest/licenses/LICENSE": "0cc5ea2ce3cbae09ce9581e64a70bff7b74fef07f6b295597ab6a2cdead840d1"
+    }
+  },
+  "pywin32-ctypes": {
+    "version": "0.2.3",
+    "license": "BSD-3-Clause",
+    "files": {
+      "licenses/pywin32-ctypes/LICENSE.txt": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+    }
+  },
+  "rapidocr": {
+    "version": "3.9.2",
+    "license": "Apache-2.0",
+    "files": {
+      "licenses/rapidocr/LICENSE": "7125666e36cb851720619dcf28632c46dcc02a4b9b88f2df1ea43fdb00ccbce3",
+      "licenses/rapidocr/SOURCE.txt": "5ef7e0987f6b4ce438dbc77d969c47c8987793e06b92413950b50728343452d5"
+    }
+  },
+  "requests": {
+    "version": "2.34.2",
+    "license": "Apache-2.0",
+    "files": {
+      "licenses/requests/licenses/LICENSE": "88046bf22d5b4f4b8cc85079ae6aae5424a3a1999db952ed152828ff325b2c6d",
+      "licenses/requests/licenses/NOTICE": "8c7a3a90f8ca49f813f75e75ceb20aa4b488c57f4aa72c872771f22558c837d9"
+    }
+  },
+  "setuptools": {
+    "version": "84.0.0",
+    "license": "MIT",
+    "files": {
+      "licenses/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE": "1aac5c9753c2e8b4f16c2e4634119e796c09d2d5b5175d944f3217d3bbcbdcdc",
+      "licenses/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE": "e7749fa8c07ca368021bbe1c5ca25bd4db4a618aedc394b686fb4f781e6f6a28",
+      "licenses/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE": "a1e70008f96616bb977c5953265581a9ee4fe38735b30614b49939a73a11e4a7",
+      "licenses/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE": "e7749fa8c07ca368021bbe1c5ca25bd4db4a618aedc394b686fb4f781e6f6a28",
+      "licenses/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE": "db3e1ead51c01fe3856890c372c0c618b7fc3a40c3930cc56ebb7b79990aafac",
+      "licenses/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE": "cb77fc9a5978aea569e8e176c2a7e90e476c156b46402280c305e685fbd6357b",
+      "licenses/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE": "2162b6b24a563bf763e00d507e650b2b07b0cd4646efa1e2f62fb99a19f7f85e",
+      "licenses/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE": "8ef81e4c883c5ccb2a08026cc74ba3193279dd5149b36839d976c0a896637d87",
+      "licenses/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+      "licenses/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD": "67daf15b478dbd91bcd83bff907efff68471d42d2138226b89f039d658d53435",
+      "licenses/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE": "1c4c52e973337eb2dae639922cbec15ebba954982e1f2f9b7b197e87d7a8760a",
+      "licenses/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE": "34b59b39e7ba577a1d86924218c71229b163d3bf3903aec784299f725c89d324",
+      "licenses/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt": "92e94e40a744a96bd148c67887218697338d911c4fdc18012c4b5f9aa3970061",
+      "licenses/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE": "cb77fc9a5978aea569e8e176c2a7e90e476c156b46402280c305e685fbd6357b",
+      "licenses/setuptools/licenses/LICENSE": "e7749fa8c07ca368021bbe1c5ca25bd4db4a618aedc394b686fb4f781e6f6a28"
+    }
+  },
+  "shapely": {
+    "version": "2.1.2",
+    "license": "BSD 3-Clause",
+    "files": {
+      "licenses/shapely/licenses/LICENSE.txt": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf",
+      "licenses/shapely/licenses/LICENSE_GEOS": "91a5bb11df4d44bfddc0c68db43681705326107781599fb6c6ff821042072d64",
+      "licenses/shapely/licenses/LICENSE_win32": "9b30cd1a09789884dd54e5828e31d2bf8e6879034e7cf7b6e0321444cf6dd11d",
+      "licenses/GEOS/upstream/23040602ab4f-LICENSE": "087edee322a9d2e527453ddc6731ccb4f015a36e55864b30715934f32a4879c1",
+      "licenses/GEOS/upstream/b7b52e6433b1-LICENSE-Boost": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "licenses/GEOS/upstream/cc58fa89ed3b-LICENSE.md": "d9807bd8ed985a7bbecf032d8d7b8497c85625fc98499325bad51b71fe9281e3",
+      "licenses/GEOS/upstream/cfa9f5f1edf5-LICENSE-Apache2": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "licenses/GEOS/upstream/fc9ea54f7f5f-COPYING": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+      "licenses/GEOS/upstream/ORIGINAL_PATHS.json": "8e9a4ef01c48095413d076f5662fd5b1ec7112f62c18b0d05766467bd512a741"
+    }
+  },
+  "shiboken6": {
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": {
+      "licenses/shiboken6/COPYRIGHT.txt": "4723f8f01eece8e74098d6bbd4afb8c77191706b4c9407920d67ccfda0426c42",
+      "licenses/shiboken6/GPL-3.0-only.txt": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+      "licenses/shiboken6/LGPL-3.0-only.txt": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+      "licenses/shiboken6/licenses/LicenseRef-Qt-Commercial.txt": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    }
+  },
+  "six": {
+    "version": "1.17.0",
+    "license": "MIT",
+    "files": {
+      "licenses/six/LICENSE": "b4d3d680140254b09d8904f740fdb8684035f5a91cae0e49a02e045ce9bbbfe2"
+    }
+  },
+  "tqdm": {
+    "version": "4.70.0",
+    "license": "MPL-2.0 AND MIT",
+    "files": {
+      "licenses/tqdm/licenses/LICENCE": "20eec8e1768c92d079afad6800fb399f7816285cc69235d1a01d5360b36d0783"
+    }
+  },
+  "urllib3": {
+    "version": "2.7.0",
+    "license": "MIT",
+    "files": {
+      "licenses/urllib3/licenses/LICENSE.txt": "2a33e93bb9b8c98b75f4f08133721de39b53771130eb94b99ade0f270787f54b"
+    }
+  },
+  "tzdata": {
+    "version": "2026.4",
+    "license": "Apache-2.0",
+    "files": {
+      "licenses/tzdata/LICENSE": "48fbc70b47538eb04eb9420c109df605ed6b259b8b6c126182135c907ef5840a",
+      "licenses/tzdata/licenses/LICENSE_APACHE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    }
+  }
+}

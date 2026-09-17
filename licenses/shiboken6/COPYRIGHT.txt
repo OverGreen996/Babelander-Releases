@@ -1,0 +1,3 @@
+Copyright The Qt Company Ltd. and other contributors.
+See the retained upstream pyside-setup source headers and LICENSES in licenses/PySide6_Essentials/upstream/.
+Used under the LGPLv3 alternative, not a commercial Qt license.

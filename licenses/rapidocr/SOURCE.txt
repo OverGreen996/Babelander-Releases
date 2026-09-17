@@ -1,0 +1,2 @@
+RapidOCR 3.9.2 installed metadata: License-Expression Apache-2.0.
+License text: https://raw.githubusercontent.com/RapidAI/RapidOCR/v3.9.2/LICENSE
