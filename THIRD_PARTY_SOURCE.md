@@ -1,19 +1,19 @@
-# Third-party source access and library replacement — 1.4.4
+# Third-party source access and library replacement — 1.4.5
 
 本文件提供 LGPL 第三方函式庫原始碼，不授權或公開 Babelander 自有應用程式原始碼。
 官方發布庫由 OverGreen996 控制：https://github.com/OverGreen996/Babelander-Releases
 
 ## 同版原始碼下載
 
-上述發布庫的 **v1.4.4** Release 同時提供下列未修改上游 source archives，可免費取得，無需下載 Babelander 原始碼、付費或索取許可。這些附件必須與二進位檔同時可用，不得僅以外部上游 URL 代替。
+上述發布庫的 **v1.4.5** Release 同時提供下列未修改上游 source archives，可免費取得，無需下載 Babelander 原始碼、付費或索取許可。這些附件必須與二進位檔同時可用，不得僅以外部上游 URL 代替。
 
 | Source archive | SHA-256 |
 |---|---|
-| [qtbase-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.4/qtbase-everywhere-src-6.11.2.tar.xz) | `5b2e00eccaf5a4d8c14134ffa0ea8dfd0a35ae1ffc7f8d87fa4305a1ed23cf22` |
-| [qtsvg-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.4/qtsvg-everywhere-src-6.11.2.tar.xz) | `d594337feca84c26fb67fe87b85e6a5c12fda404b611d905f9d138210c311876` |
-| [qtimageformats-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.4/qtimageformats-everywhere-src-6.11.2.tar.xz) | `cecd8900f34b6550076309bc94f62f828008b633a4239e0a08c86788f41001f8` |
-| [pyside-setup-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.4/pyside-setup-everywhere-src-6.11.2.tar.xz) | `cba47efbaad1bedd529725cbc14e21f156c7a19366f07b3edfbb076ffd7afdf8` |
-| [geos-3.13.1.tar.bz2](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.4/geos-3.13.1.tar.bz2) | `df2c50503295f325e7c8d7b783aca8ba4773919cde984193850cf9e361dfd28c` |
+| [qtbase-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.5/qtbase-everywhere-src-6.11.2.tar.xz) | `5b2e00eccaf5a4d8c14134ffa0ea8dfd0a35ae1ffc7f8d87fa4305a1ed23cf22` |
+| [qtsvg-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.5/qtsvg-everywhere-src-6.11.2.tar.xz) | `d594337feca84c26fb67fe87b85e6a5c12fda404b611d905f9d138210c311876` |
+| [qtimageformats-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.5/qtimageformats-everywhere-src-6.11.2.tar.xz) | `cecd8900f34b6550076309bc94f62f828008b633a4239e0a08c86788f41001f8` |
+| [pyside-setup-everywhere-src-6.11.2.tar.xz](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.5/pyside-setup-everywhere-src-6.11.2.tar.xz) | `cba47efbaad1bedd529725cbc14e21f156c7a19366f07b3edfbb076ffd7afdf8` |
+| [geos-3.13.1.tar.bz2](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.5/geos-3.13.1.tar.bz2) | `df2c50503295f325e7c8d7b783aca8ba4773919cde984193850cf9e361dfd28c` |
 
 qtbase 包含 QtCore／Gui／Widgets／Network 及平台、TLS、基本圖像外掛；qtsvg 包含 SVG 模組及外掛；qtimageformats 包含額外圖像外掛。Qt 模組均為 6.11.2。pyside-setup 6.11.2 包含 PySide6、Shiboken6、typesystems、生成器、CMake 與上游建置腳本。GEOS 3.13.1 包含 Shapely 所載入幾何 DLL 的來源。各 archive 含完整原始碼、原始授權與上游編譯指令；本專案未修改上述第三方來源。
 
