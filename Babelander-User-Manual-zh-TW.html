@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Babelander 譯鄉人｜完整使用手冊</title>
+<style>
+:root{--bg:#0d141d;--panel:#111c27;--text:#ebe3d4;--muted:#aeb9c5;--gold:#d4b06a;--cyan:#91d4e8;--green:#9ad7c4;--line:#2b3b4b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#0a1119,#0d141d 28%,#101923);color:var(--text);font-family:"Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;line-height:1.75}
+a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:0 auto;padding:24px}
+.hero{border:1px solid #5b4d34;background:linear-gradient(135deg,#151d26,#111923 55%,#1b2530);border-radius:16px;padding:34px;margin:8px 0 24px;box-shadow:0 20px 50px rgba(0,0,0,.28)}
+.hero h1{margin:0;color:#f1d18b;font-size:34px}.hero .sub{font-size:19px;color:#d9c9a8;margin:4px 0 10px}.hero .tag{font-size:15px;color:var(--muted)}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.badge{border:1px solid #53482f;border-radius:999px;padding:5px 10px;background:#151d26;color:#dec58d;font-size:13px}
+.layout{display:grid;grid-template-columns:270px 1fr;gap:22px;align-items:start}
+nav{position:sticky;top:16px;background:#0e1822;border:1px solid var(--line);border-radius:13px;padding:15px;max-height:calc(100vh - 32px);overflow:auto}
+nav strong{color:#e8c982}nav a{display:block;padding:5px 8px;border-radius:7px;color:#bac8d5;font-size:14px}nav a:hover{background:#172432;color:#fff;text-decoration:none}
+main{min-width:0}section{background:rgba(17,28,39,.92);border:1px solid var(--line);border-radius:14px;padding:24px;margin:0 0 18px}
+h2{margin:0 0 15px;color:#e1bb70;border-bottom:1px solid #3a4652;padding-bottom:8px}h3{color:#e7cf9c;margin-top:24px}
+p{margin:10px 0}ul,ol{padding-left:24px}li{margin:5px 0}
+code,kbd{background:#0b1219;border:1px solid #344452;border-radius:5px;padding:2px 6px;color:#d9edf5;font-family:Consolas,monospace}kbd{box-shadow:0 1px 0 #000}
+.note,.tip,.warn,.good{border-left:4px solid var(--gold);background:#18222d;padding:12px 14px;border-radius:8px;margin:14px 0}.tip{border-left-color:var(--cyan)}.good{border-left-color:var(--green)}.warn{border-left-color:#cf897f}
+.steps{counter-reset:step;display:grid;gap:10px;margin:12px 0}.step{position:relative;padding:13px 15px 13px 52px;border:1px solid #324452;border-radius:10px;background:#14202b}.step:before{counter-increment:step;content:counter(step);position:absolute;left:13px;top:13px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#b58d48;color:#111;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}th,td{border:1px solid #31414f;padding:9px 10px;vertical-align:top;text-align:left}th{background:#192633;color:#e2c384}tr:nth-child(even) td{background:#121d27}
+.small{font-size:13px;color:var(--muted)}.callout-title{font-weight:700;color:#f0d395}.footer{text-align:center;color:#8595a5;font-size:13px;padding:25px 0 40px}
+.quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.quick div{background:#14202b;border:1px solid #324452;border-radius:10px;padding:12px}.quick b{display:block;color:#e0bd78;margin-bottom:3px}
+@media(max-width:900px){.layout{grid-template-columns:1fr}nav{position:static;max-height:none}.quick{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.wrap{padding:12px}.hero{padding:22px}.hero h1{font-size:28px}section{padding:17px}.quick{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <h1>Babelander 譯鄉人｜完整使用手冊</h1>
+  <div class="sub">全方位 PC 遊戲 OCR 即時翻譯助手</div>
+  <div class="tag">字幕、裝備、任務、聊天與中文 → 英文回覆，一套完成。</div>
+  <div class="badges"><span class="badge">Windows x64</span><span class="badge">英文 → 繁體中文</span><span class="badge">中文 → 英文回覆</span><span class="badge">本機 / Google / Azure / DeepL</span></div>
+</header>
+
+<div class="layout">
+<nav>
+<strong>目錄</strong>
+<a href="#start">1. 30 秒快速開始</a>
+<a href="#install">2. 下載、安裝與第一次啟動</a>
+<a href="#windows">2-1. Windows 版本需求</a>
+<a href="#interface">3. 主介面怎麼看</a>
+<a href="#subtitle">4. 字幕即時翻譯</a>
+<a href="#equipment">5. 裝備卡翻譯</a>
+<a href="#quest">6. 任務卡翻譯</a>
+<a href="#chat">7. 聊天翻譯</a>
+<a href="#reply">8. 中文 → 英文回覆</a>
+<a href="#providers">9. 本機與雲端怎麼選</a>
+<a href="#dictionary">10. 自訂辭典</a>
+<a href="#history">11. 歷史與測試</a>
+<a href="#hotkeys">12. 快捷鍵總表</a>
+<a href="#performance">13. 效能與模型</a>
+<a href="#troubleshooting">14. 常見問題排除</a>
+<a href="#update">15. 更新、備份與解除安裝</a>
+<a href="#privacy">16. 隱私與雲端文字傳送</a>
+<a href="#faq">17. FAQ</a>
+</nav>
+
+<main>
+<section id="start">
+<h2>1. 30 秒快速開始</h2>
+<div class="quick">
+<div><b>① 框選</b>到「即時翻譯」按 <strong>① 框選原文</strong>，框住遊戲字幕。</div>
+<div><b>② 開始</b>按 <strong>② 開始翻譯</strong>，再切回遊戲。</div>
+<div><b>③ 看譯文</b>繁體中文會顯示在遊戲浮層。</div>
+<div><b>④ 暫停</b>再次按開始按鈕，或用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F2</kbd>。</div>
+</div>
+<div class="tip"><span class="callout-title">第一次使用本機翻譯？</span><br>到「設定與下載」下載翻譯模型與額外執行元件。若已設定 Google / Azure / DeepL，雲端功能不必先下載或暖機本機翻譯模型。</div>
+</section>
+
+<section id="install">
+<h2>2. 下載、安裝與第一次啟動</h2>
+<h3>一般使用者：建議安裝版</h3>
+<div class="steps">
+<div class="step">到官方 Release 頁下載檔名以 <code>-Setup.exe</code> 結尾的安裝檔。</div>
+<div class="step">執行安裝程式，閱讀授權條款後完成安裝。</div>
+<div class="step">第一次開啟 Babelander，等待啟動自檢完成。</div>
+<div class="step">要用本機翻譯時，到「設定與下載」下載模型與 Runtime；要用雲端時，設定對應 API。</div>
+</div>
+<p><a href="https://github.com/OverGreen996/Babelander-Releases/releases/latest">官方最新版本下載頁</a></p>
+<h3>免安裝版</h3>
+<p>下載 <code>Windows-Lite.zip</code>，完整解壓縮後再啟動 <code>Babelander.exe</code>。不要直接在 ZIP 裡執行。</p>
+<div class="warn"><span class="callout-title">本機模型不是安裝包內建。</span><br>本機翻譯模型與 llama.cpp / CUDA Runtime 需要由你在程式內主動下載。</div>
+</section>
+
+
+<section id="windows">
+<h2>2-1. Windows 版本需求</h2>
+<div class="warn"><span class="callout-title">Windows 太舊會無法正常使用 Babelander。</span><br>
+Babelander 目前最低支援 <strong>Windows 10 版本 2004（Build 19041）</strong> 或更新版本；Windows 11 可直接使用。</div>
+
+<p>如果 Windows 版本低於 Build 19041，可能會遇到以下情況：</p>
+<ul>
+<li>安裝程式直接拒絕安裝。</li>
+<li>字幕／聊天浮層無法使用 Windows 的「擷取排除」功能。</li>
+<li>Overlay 可能被 OCR 再次讀到，造成重複辨識或畫面異常。</li>
+<li>部分視窗與 DPI 行為可能不符合 Babelander 的支援環境。</li>
+</ul>
+
+<h3>怎麼查看自己的 Windows 版本？</h3>
+<div class="steps">
+<div class="step">按 <kbd>Win</kbd> + <kbd>R</kbd>。</div>
+<div class="step">輸入 <code>winver</code> 後按 Enter。</div>
+<div class="step">查看「版本」與「OS 組建」。OS 組建需為 <strong>19041</strong> 或更高。</div>
+</div>
+
+<div class="tip">如果版本太舊，請先透過 Windows Update 升級系統，再安裝 Babelander。若電腦無法升級到 Windows 10 Build 19041 以上，建議不要使用 Babelander。</div>
+</section>
+
+<section id="interface">
+<h2>3. 主介面怎麼看</h2>
+<table>
+<thead><tr><th>頁籤</th><th>用途</th></tr></thead>
+<tbody>
+<tr><td>即時翻譯</td><td>持續監看遊戲字幕或對話區，偵測文字改變後翻譯並顯示浮層。</td></tr>
+<tr><td>裝備與任務</td><td>一次框選一張裝備卡或任務卡，放開滑鼠後翻譯一次，不持續監測。</td></tr>
+<tr><td>聊天翻譯</td><td>持續監測遊戲聊天區的新訊息，英文來訊翻成繁體中文。</td></tr>
+<tr><td>自訂辭典</td><td>新增、修改、匯入、匯出指定譯名與固定句翻譯。</td></tr>
+<tr><td>歷史與測試</td><td>貼上英文測試翻譯，並查看歷史紀錄。</td></tr>
+<tr><td>設定與下載</td><td>更新、本機模型、效能、OCR 掃描、雲端服務與完整使用說明。</td></tr>
+<tr><td>關於</td><td>版本、作者、官方來源、授權與第三方資訊。</td></tr>
+</tbody>
+</table>
+<div class="note">聊天室「來訊翻譯」固定使用本機，不會把聊天來訊送到 Google、Azure 或 DeepL。</div>
+</section>
+
+<section id="subtitle">
+<h2>4. 字幕即時翻譯</h2>
+<div class="steps">
+<div class="step">讓遊戲字幕或對話文字出現在畫面上。</div>
+<div class="step">切到「即時翻譯」→ 按 <strong>① 框選原文</strong>。</div>
+<div class="step">只框住會出現英文字幕的區域，避免大量無關圖像。</div>
+<div class="step">按 <strong>② 開始翻譯</strong>。文字穩定且有變化時才重新 OCR 與翻譯。</div>
+</div>
+<h3>字幕浮層</h3>
+<ul>
+<li><strong>背景模式：</strong>半透明黑底 / 透明背景。</li>
+<li><strong>黑底深度：</strong>調整背景遮罩強度。</li>
+<li><strong>中文字級：</strong>12～60。</li>
+<li><strong>鎖定位置並讓滑鼠穿透：</strong>勾選後不擋遊戲滑鼠；取消勾選可拖曳字幕。</li>
+<li><strong>字幕移回原文區域：</strong>把浮層恢復到原本框選位置。</li>
+</ul>
+<div class="tip">建議 Windows 10 2004（Build 19041）以上或 Windows 11。視窗化／無邊框遊戲通常比獨佔全螢幕更穩定。</div>
+</section>
+
+<section id="equipment">
+<h2>5. 裝備卡翻譯</h2>
+<p>裝備卡是「一次性翻譯」：每次框選、放開滑鼠後處理一次。</p>
+<div class="steps">
+<div class="step">到「裝備與任務」確認 <strong>啟用裝備卡</strong>。</div>
+<div class="step">按 <strong>框選並翻譯裝備卡</strong>，或用預設 <kbd>Alt</kbd>+<kbd>T</kbd>。</div>
+<div class="step">盡量完整框住整張裝備資訊卡。</div>
+<div class="step">放開滑鼠後等待結果；可保留原文顏色、數值與屬性結構。</div>
+</div>
+<div class="good">裝備卡會先跑本機詞典、規則與數值結構解析；選雲端時，能在本機完成的內容不必全部送雲端。</div>
+</section>
+
+<section id="quest">
+<h2>6. 任務卡翻譯</h2>
+<div class="steps">
+<div class="step">到「裝備與任務」確認 <strong>啟用任務卡</strong>。</div>
+<div class="step">按 <strong>框選並翻譯任務卡</strong>。</div>
+<div class="step">框住完整任務標題、描述、目標與進度。</div>
+<div class="step">放開滑鼠，等待任務卡翻譯完成。</div>
+</div>
+<p>任務卡預設<strong>沒有全域快捷鍵</strong>；可以自行設定，也可以只用按鈕。框選時按 <kbd>Esc</kbd> 可取消。</p>
+</section>
+
+<section id="chat">
+<h2>7. 聊天翻譯</h2>
+<div class="steps">
+<div class="step">到「聊天翻譯」按 <strong>① 框選聊天區</strong>。</div>
+<div class="step">框住聊天訊息本體，可含時間、頻道與玩家名稱；避開上方分頁與下方輸入框。</div>
+<div class="step">按 <strong>② 開始監測</strong>。</div>
+<div class="step">有新訊息時浮層會加入譯文；隱藏面板後仍可繼續監測。</div>
+</div>
+<ul>
+<li><strong>跟隨框選時的視窗：</strong>遊戲視窗移動或等比例縮放時跟著調整。</li>
+<li><strong>啟用花邊背景：</strong>切換聊天裝飾。</li>
+<li><strong>以目前畫面重新定位：</strong>大量捲動或位置判斷失準時使用。</li>
+</ul>
+<div class="note">聊天來訊固定本機處理。若跟隨的遊戲視窗被最小化、遮住、關閉、移出螢幕或縮得太小，擷取可能暫停。</div>
+</section>
+
+<section id="reply">
+<h2>8. 中文 → 英文回覆</h2>
+<p>回覆工具和聊天監測分開，不需要先啟動聊天監測。</p>
+<div class="steps">
+<div class="step">在「聊天翻譯」按 <strong>中文 → 英文回覆</strong>。</div>
+<div class="step">輸入中文，最多 300 字。</div>
+<div class="step">按 <kbd>Enter</kbd> 或「翻譯並複製」；換行用 <kbd>Shift</kbd>+<kbd>Enter</kbd>。</div>
+<div class="step">通過檢查後會自動複製；若有疑義，先核對再按「複製英文」。</div>
+<div class="step">切回遊戲自行 <kbd>Ctrl</kbd>+<kbd>V</kbd> 貼上並送出。</div>
+</div>
+<div class="warn">Babelander 不會自動切換遊戲、不會自動貼上，也不會自動送出聊天訊息。</div>
+</section>
+
+<section id="providers">
+<h2>9. 本機 / Google / Azure / DeepL 怎麼選</h2>
+<table>
+<thead><tr><th>方式</th><th>優點</th><th>注意</th></tr></thead>
+<tbody>
+<tr><td>本機</td><td>下載模型後可離線；聊天來訊固定本機。</td><td>需要模型與 Runtime，首次使用會暖機並占用 RAM / VRAM。</td></tr>
+<tr><td>Google</td><td>不用啟動本機翻譯模型，可按功能指定。</td><td>需要自己的 API，可能產生費用或遇到額度限制。</td></tr>
+<tr><td>Azure</td><td>不用本機模型，可與其他服務分工。</td><td>需要 Azure Translator 設定；有本地安全額度控制。</td></tr>
+<tr><td>DeepL</td><td>可作為字幕、卡片、回覆引擎。</td><td>需 DeepL API；方案與計費週期依帳號而異。</td></tr>
+</tbody>
+</table>
+<ul>
+<li>字幕、裝備、任務、中文 → 英文回覆可<strong>各自</strong>選服務。</li>
+<li>聊天室來訊固定本機。</li>
+<li>儲存 API Key、測試成功，<strong>不代表已切換到該服務</strong>。</li>
+<li>額度不足時可暫用其他已設定服務、本機，或暫停該功能；不改永久設定。</li>
+</ul>
+<p>繁中設定教學：<a href="docs/google_api_setup_zh-TW.html">Google</a> · <a href="docs/azure_api_setup_zh-TW.html">Azure</a> · <a href="docs/deepl_api_setup_zh-TW.html">DeepL</a></p>
+</section>
+
+<section id="dictionary">
+<h2>10. 自訂辭典</h2>
+<p>可以固定人名、術語、技能、裝備名稱與整句譯文。支援「共用、裝備、任務、字幕、聊天」模式範圍，也可指定遊戲。</p>
+<p>支援新增、編輯、刪除、匯入 CSV／ZIP、匯出自訂 CSV。遊戲專用設定優先於通用設定。</p>
+</section>
+
+<section id="history">
+<h2>11. 歷史與測試</h2>
+<p>貼上一段英文 → 按「翻譯這段文字」→ 檢查譯文、來源與耗時。若術語不滿意，再到自訂辭典調整。</p>
+<div class="note">手動測試時會暫停畫面監看，避免與遊戲 OCR 同時互相干擾。</div>
+</section>
+
+<section id="hotkeys">
+<h2>12. 快捷鍵總表</h2>
+<table>
+<thead><tr><th>快捷鍵</th><th>功能</th></tr></thead>
+<tbody>
+<tr><td><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd></td><td>框選字幕原文區域</td></tr>
+<tr><td><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F2</kbd></td><td>開始 / 暫停字幕翻譯</td></tr>
+<tr><td><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd></td><td>顯示 / 隱藏字幕浮層</td></tr>
+<tr><td><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd></td><td>半透明黑底 / 透明背景切換</td></tr>
+<tr><td><kbd>Alt</kbd>+<kbd>T</kbd></td><td>預設裝備卡框選翻譯</td></tr>
+<tr><td><kbd>Enter</kbd></td><td>中文 → 英文回覆送出翻譯</td></tr>
+<tr><td><kbd>Shift</kbd>+<kbd>Enter</kbd></td><td>中文回覆換行</td></tr>
+<tr><td><kbd>Esc</kbd></td><td>取消裝備 / 任務框選</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="performance">
+<h2>13. 效能與模型</h2>
+<p>一般啟動只做環境自檢，本機翻譯模型在真正有功能需要本機推論時才暖機。停止所有需要本機模型的工作後，會依設定延遲釋放；目前預設約 5 分鐘。</p>
+<p>「設定與下載」可調整效能模式、翻譯 CPU 執行緒、畫面檢查間隔、文字穩定等待、保留近期前文等。</p>
+<div class="tip">不知道怎麼設時先用預設值。追求速度前，先確認不會讓遊戲本身掉幀。</div>
+</section>
+
+<section id="troubleshooting">
+<h2>14. 常見問題排除</h2>
+<table>
+<thead><tr><th>狀況</th><th>先這樣檢查</th></tr></thead>
+<tbody>
+<tr><td>字幕完全沒反應</td><td>確認已框選、已開始；再看「辨識原文」是否有 OCR 結果。</td></tr>
+<tr><td>字幕一直是舊的</td><td>按「重翻目前對話」；若位置變了就重新框選。</td></tr>
+<tr><td>OCR 認錯</td><td>縮小框選範圍、提高遊戲文字清晰度、避免動畫與半透明特效。</td></tr>
+<tr><td>翻譯很慢</td><td>確認本機 / 雲端來源；本機首次暖機較久，CPU / GPU 滿載也會拖慢。</td></tr>
+<tr><td>Alt+T 沒反應</td><td>確認裝備卡啟用、快捷鍵狀態為已啟用；被其他程式占用時改鍵或用按鈕。</td></tr>
+<tr><td>聊天沒有新訊息</td><td>確認框選不含輸入框；大量捲動後按「以目前畫面重新定位」。</td></tr>
+<tr><td>雲端服務選不到</td><td>先完成該 Provider 憑證與同意設定；不可用或額度鎖定時不會出現在可選清單。</td></tr>
+<tr><td>雲端額度滿</td><td>依提示暫用本機 / 其他服務，或暫停該功能。</td></tr>
+<tr><td>模型顯示 COLD</td><td>COLD 代表尚未需要模型；真正啟用本機工作時才暖機，是正常設計。</td></tr>
+<tr><td>遊戲全螢幕看不到浮層</td><td>優先改用視窗化或無邊框視窗模式。</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="update">
+<h2>15. 更新、備份與解除安裝</h2>
+<p><strong>更新不用先解除安裝：</strong>關閉 Babelander 後直接執行新版 Setup，可保留既有模型與設定。</p>
+<div class="warn">解除安裝會刪除 Babelander 管理的模型、Runtime、設定、自訂辭典、Key、用量與快取。要保留的資料請先備份。</div>
+<p>解除安裝不會替你撤銷 Google / Azure / DeepL API Key，也不會取消第三方服務訂閱。</p>
+</section>
+
+<section id="privacy">
+<h2>16. 隱私與雲端文字傳送</h2>
+<ul>
+<li>本機翻譯不需要把待翻譯文字送到第三方翻譯服務。</li>
+<li>聊天室來訊固定本機。</li>
+<li>字幕、裝備、任務、中文回覆選 Google / Azure / DeepL 時，必要文字會傳送到你選擇的第三方服務。</li>
+<li>首次切換相關雲端功能時會顯示文字傳送同意。</li>
+<li>API 服務的資料政策、計費與保留規則以各服務商條款為準。</li>
+</ul>
+</section>
+
+<section id="faq">
+<h2>17. FAQ</h2>
+<h3>Q：一定要下載本機模型嗎？</h3>
+<p>不用。字幕、裝備、任務、中文回覆若使用雲端，可以不先暖機本機模型；但聊天來訊固定本機，所以要用聊天翻譯仍需本機模型。</p>
+<h3>Q：設定雲端後會自動改用雲端嗎？</h3>
+<p>不會。設定憑證和「這個功能選哪個 Provider」是分開的。</p>
+<h3>Q：卡片翻譯和字幕翻譯差在哪？</h3>
+<p>字幕是持續監看；裝備與任務卡每框一次只翻一次，適合靜態資訊面板。</p>
+<h3>Q：可以自動貼英文並送出嗎？</h3>
+<p>目前不會。Babelander 只翻譯與複製，貼上與送出由你自己操作。</p>
+<h3>Q：官方版本去哪裡下載？</h3>
+<p><a href="https://github.com/OverGreen996/Babelander-Releases/releases/latest">OverGreen996 / Babelander-Releases 官方 Release</a></p>
+</section>
+
+<div class="footer">
+Babelander 譯鄉人 · 作者 OverGreen996<br>
+官方版本免費提供個人使用。完整授權請參閱 LICENSE。<br>
+本手冊依目前功能整理；未來介面若略有調整，以當前程式顯示為準。
+</div>
+</main>
+</div>
+</div>
+</body>
+</html>

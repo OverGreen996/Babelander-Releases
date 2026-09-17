@@ -16,6 +16,10 @@ Babelander 為 Windows PC 遊戲玩家提供英文 → 繁體中文翻譯與中�
 
 [查看更新日誌](https://github.com/OverGreen996/Babelander-Releases/releases)
 
+**[下載完整使用手冊（繁體中文 ZIP）](https://github.com/OverGreen996/Babelander-Releases/releases/download/v1.4.3/Babelander-User-Manual-zh-TW.zip)**
+
+解壓後，以瀏覽器開啟 `Babelander_完整使用手冊.html`。內附 Google／Azure／DeepL 教學，請保留同一資料夾內的 `docs`。手冊目前獨立下載，尚未整合進安裝包。
+
 ## 軟體畫面
 
 以下為 Babelander 實際介面截圖。字幕、裝備與對話使用示範文字，並非特定遊戲的實測紀錄。
